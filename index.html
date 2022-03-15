@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="book">
+        <input type="checkbox" id="c1">
+        <input type="checkbox" id="c2">
+        <input type="checkbox" id="c3">
+        
+        <div class="flip-book">
+            <div class="flip" id="p1">
+                <div class="back">
+                    <div class="article_image">
+                        <h2>Mon premier article</h2>
+                        <img src="./images/pngegg.png">
+                    </div>
+                    <label class="back-btn" for="c2">
+                        <div class="page-back">
+                            <img src="./images/back-page.png">
+                        </div>
+                    </label>
+                </div>
+                <div class="front" id="cover">
+                    <div class="cover">
+                        <div class="cover-content">
+                            <b class="page-subtitle">L'actualité à votre porte</b>
+                            <div id="dateA"><b>Mardi 15 Mars 2022</b></div>
+                            <b class="page-number">1</b>
+                        </div>
+                        <hr class="separator">
+                        <div class="header">
+                            <h1 class="page-title">L'ARIÉGEOISE</h1>
+                            <h2 class="page-subtitle">L'ACTUALITÉ À VOTRE PORTE</h2>
+                        </div>
+                        <hr class="separator">
+                        <div class="container">
+                            <div class="une">
+                                <h2 class="une_title">Le lancement de la campagne présidentielle</h2>
+                                <img src="./images/téléchargement.jpeg"class="une_picture">
+                                <p class="une_content">Lorem ipsum dolor sit amet, consectetur adipisicing, sed diam nonumy, sed diam nonum, sed diam nonumy.</p>
+                            </div>
+                            <div class="author">
+                                <b class="author-name">Franck BOUCHET</b>
+                            </div>
+                        </div>
+                        <div class="summary">
+                            <div class="summary-one">
+                                <h4 class="summary-title">La fin de JO Paralympiques</h4>
+                                <p class="summary-text">La France rentre avec 12 médailles, on félicite les athlètes pour ce palmarès.</p>
+                                <p class="summary-text">On leur donne rendez-vous dans 4 ans.</p>
+                                <a href="#" class="summary-link">Lire la suite</a>
+                            </div>
+                            <div class="summary-two">
+                                <h4 class="summary-title">Mbappé quitte le PSG, les supporters le font craquer</h4>
+                                <p class="summary-text">Quasiment seul joueur du PSG à être soutenu par les supporters dimanche face à Bordeaux, Kylian Mbappé n'a pas du tout aimé les messages passés.</p>
+                                <a href="#" class="summary-link">Lire la suite</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <label class="next-btn" for="c1">
+                        <div class="page-next">
+                            <img src="./images/next-page.png">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="flip" id="p2">
+                <div class="back">
+                    <div class="article_image">
+                        <h2>Mon deuxième article</h2>
+                        <img src="./images/pngegg.png">
+                    </div>
+                    <label class="back-btn" for="c2">
+                        <div class="page-back">
+                            <img src="./images/back-page.png">
+                        </div>
+                    </label>
+                </div>
+                <div class="front">
+                    <div class="article_content">
+                        <h2>My country</h2>
+                        <p>Lorem ipsum dolor sit amet, consectet</p>
+                    </div>
+                    <div class="author">
+                        <b class="author-name">Franck BOUCHET</b>
+                        <b class="author-date">Mondays, March 14th, 2022</b>
+                    </div>
+                    <label class="next-btn" for="c2">
+                        <div class="page-next">
+                            <img src="./images/next-page.png">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="flip" id="p3">
+                <div class="back">
+                    <div class="article_image">
+                    </div>
+                </div>
+                <div class="front">
+                    <div class="article_content">
+                        <h2>World</h2>
+                        <p>Lorem ipsum dolor sit amet, consectet</p>
+                    </div>
+                    <div class="author">
+                        <b class="author-name">John DOE</b>
+                        <b class="author-date">Mondays, March 14th, 2022</b>
+                    </div>
+                    <label class="next-btn" for="c3">
+                        <div class="page-next">
+                            <img src="./images/next-page.png">
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
