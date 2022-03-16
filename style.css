@@ -49,12 +49,13 @@ img {
 
 #cover {
     width: 600px;
-    height: 800px;
+    height: 850px;
+    padding: 5%;
 }
 
 .flip-book {
     width: 600px;
-    height: 800px;
+    height: 850px;
     position: relative;
     perspective: 1500px;
 }
@@ -91,20 +92,10 @@ p {
 
 .cover-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-.cover-content .page-subtitle {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.cover-content .page-date {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .cover {
@@ -202,10 +193,17 @@ p {
     padding: 1%;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .article_image {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .article_content {
