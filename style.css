@@ -196,7 +196,9 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    padding: 1%;
+    border-bottom: 1px solid black;
 }
 
 .article_image {
@@ -204,6 +206,11 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+.article_image img {
+    border: 1px solid #000;
+    width: 95%;
 }
 
 .article_content {
@@ -232,7 +239,7 @@ p {
 
 .author {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     font-size: 10px;
 }
 
@@ -268,4 +275,39 @@ p {
 .summary-two p {
     margin: 0;
     padding: 0;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.topAds {
+    width: 100%;
+}
+
+.bottomAds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%
+}
+
+.bottomOne {
+    width: 55%;
+}
+
+.bottomTwo {
+    width: 43%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25%;
 }
