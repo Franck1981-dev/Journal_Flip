@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower:wght@400;700&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +7,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: grey;
+}
+
+.page-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    margin: 0;
+    padding: 1%;
+}
+
+.page-subtitle {
+    font-family: 'Indie Flower', cursive;
 }
 
 .page-next {
@@ -208,6 +220,10 @@ p {
     width: 100%;
 }
 
+.article_image h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
 .article_image img {
     border: 1px solid #000;
     width: 95%;
@@ -220,6 +236,7 @@ p {
 }
 
 .article_content h2 {
+    font-family: 'Indie Flower', cursive;
     display: flex;
     justify-content: center;
     background-color: rgb(10, 65, 10);
